@@ -198,7 +198,7 @@ def traintest_model(model, optimizer, lr_scheduler, data, scaler, cfg, model_pat
     test_loss, _, _ = evaluate(model, data, 'test')
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='PEMS08')
+    parser.add_argument('--dataset', type=str, choices=['METRLA', 'PEMSBAY', 'PEMS08', 'PEMS04', 'PEMS03'], default='PEMS08')
     parser.add_argument('--g', type=int, default=0)
     args = parser.parse_args()
     
