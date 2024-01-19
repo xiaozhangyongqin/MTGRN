@@ -12,7 +12,7 @@ PEMS08:
   lr: 0.01
   epsilon: 0.001
   weight_decay: 0.01
-  milestones: [ 30, 50, 70]
+  milestones: [ 35, 55, 75]
   lr_decay_ratio: 0.1
   batch_size: 32
   epochs: 100
@@ -53,7 +53,7 @@ PEMS04:
   lr: 0.01
   epsilon: 0.001
   weight_decay: 0.01
-  milestones: [30, 50, 70]
+  milestones: [ 35, 55, 75]
   lr_decay_ratio: 0.1
   batch_size: 32
   epochs: 100
@@ -94,7 +94,7 @@ PEMS03:
   lr: 0.01
   epsilon: 0.001
   weight_decay: 0.01
-  milestones: [30, 50, 70]
+  milestones: [ 35, 55, 75]
   lr_decay_ratio: 0.1
   batch_size: 32
   epochs: 100
@@ -135,7 +135,7 @@ MERT-LA:
   lr: 0.01
   epsilon: 0.001
   weight_decay: 0.01
-  milestones: [30, 50, 70]
+  milestones: [ 35, 55, 75]
   lr_decay_ratio: 0.1
   batch_size: 32
   epochs: 100
@@ -176,7 +176,7 @@ PEMS-BAY:
   lr: 0.01
   epsilon: 0.001
   weight_decay: 0.01
-  milestones: [30, 50, 70]
+  milestones: [ 35, 55, 75]
   lr_decay_ratio: 0.1
   batch_size: 32
   epochs: 100
